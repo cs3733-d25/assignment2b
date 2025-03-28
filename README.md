@@ -6,7 +6,7 @@ Late penalty of 5 points (out of 50 total points) if submitted by Tuesday, March
 ### Name: 
 ### Name: 
 ---
-Use this assignment to get up to speed with git, GitHub, HTML, and CSS and using the Webstorm IDE. When you have completed the assignment, make sure to push your repository to your assignment 1b github repository.
+Use this assignment to get up to speed with React.js using the Webstorm IDE. When you have completed the assignment, make sure to push your repository to your assignment 2b github repository.
 
 ## Assignment Details
 * Use Webstorm to clone this repository on your computer.
