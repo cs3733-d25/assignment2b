@@ -1,47 +1,30 @@
 # Assignment 2B - React Web Pages
-*DUE: Monday, March 24 by 11:59pm.  
-Late penalty of 5 points (out of 50 total points) if submitted by Tuesday, March 25 by noon.*
+*DUE: Tuesday, April 2 by 11:59pm, but we will accept the assignment until April 3 at 11:59pm, if you need the extra day.  
 
 **Enter both of your names below. If we cannot figure out who did the assignment, we cannot grade it!**
 ### Name: 
 ### Name: 
 ---
-Use this assignment to get up to speed with React.js using the Webstorm IDE. When you have completed the assignment, make sure to push your repository to your assignment 2b github repository.
+Use this assignment to get up to speed with React.js using the Webstorm IDE, and using Git with another person. When you have completed the assignment, make sure to push your repository to your assignment2b github repository. 
+
+Create a blank Vite React.js project in Webstorm with Typescript enabled:  
+Webstorm -> New Project -> Vite -> Template: react -> check Use TypeScript Template
+
+You will take the web page you created in Assignment 1b and will combine it with your partner's web page to create a combined web page. Create the following TSX components and render them in `app.tsx`. Use props to pass your names in the intro.tsx component.
+1. __title.tsx__ component that contains a heading with the class, team number, and your two hobbies. For example, __CS3733-D25 Team 97: Pottery and Cello__
+2. __intro.tsx__ component that includes a paragraph that introduces both of you. For your names, use props to obtain the names that were passed in from `<App />`
+3. __hobby1.tsx__ component that introduces the hobby of the first person and includes an image of their hobby.
+   a. __list1.tsx__ component (list from Assignment 1b)
+   b. __table1.tsx__ component (table from Assignment 1b)
+   c. __form.tsx__ component (form from Assignment 1b)
+5. __hobby2.tsx__ component that introduces the hobby of the second person. Create the corresponding list2, table2, and form2 components similar to what is done for hobby1.
+
+Use the App.css stylesheet for all components, except create a list.css and with different styles and use it in list.tsx.
 
 ## Assignment Details
 * Use Webstorm to clone this repository on your computer.
   * Close any currently open projects.
-  * Click on `Get from VCS` and enter the URL of your GitHub assignment1b repo
-  * Create a `public` folder for your images and styles. 
-* In the top directory of the project, create `index.html` that is a web page about your favorite hobby. Refer to the HTML tutorial at [W3 Schools](https://www.w3schools.com/html/) or elsewhere, if needed. You will include the following HTML elements below **in order**: 
-  * Using the `<nav>` tag and unordered lists as mentioned in class, create horizontal navigation menu at the top of `index.html`. The menu will include links to three websites related to your hobby. You will want to research the a: pseudo classes, such as a:hover, to create styles for the menu selections.
-  * Title (use a `<h1>` tag) that consists of your name and your hobby
-  * A rectangular image related to your hobby (sort of like a banner for the web page). You may use an AI image generator like [https://deepai.org/styles](https://deepai.org/styles) to create the image if you want. Resize the image so the width is no larger than 640 pixels. The image should be located in the `public` folder.
-  * A paragraph (`<p>` tags) that introduces you
-  * A paragraph that introduces your hobby
-  * A list with at least 5 items
-  * A table of minimum size 3 columns and 4 rows populated with relevant data in each cell, and with a table caption. Create a class with name `collapse` for the table tag.
-  * A form that includes the following elements
-    * at least 2 text input boxes
-    * at least 3 check boxes
-    * at least 3 radio buttons. Make sure that only one button can be depressed at a time!
-    * at least 1 textarea for comments
-    * a dropdown selection list
-    * Submit button (use the `<button>` tag). This will not do anything for now.
-    * Use labels for all input types to make it clear what they are for.
-    * a link to the CSS stylesheet
-* Create a file `mystyles.css` in the `public` folder. The file will the following CSS styles for your web page:
-    * styles necessary to create a visually appealing top menubar mentioned above
-    * determine visually appealing background and text colors for your entire web page
-    * heading tags are a different color and font than the rest of the page
-    * the first item on your list is a different color from the rest of the page
-    * create a style for the HTML table class with the name `collapse`. This style specifies collapsed borders (single border rather than the default double border) with a visible border
- * Copy the file `server.js` from Canvas -> Assignments -> Assignments -> Assignment 1B to the same folder that `index.html` resides. Run the following commands to install the node.js packages for the server.
-    * npm install -D express
-    * npm install -D path
-    * run server.js and test the URL localhost:3000 to see your web page
----
-
+  * Click on `Get from VCS` and enter the URL of your GitHub assignment2b repo
 
 
 
